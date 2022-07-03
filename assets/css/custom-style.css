@@ -1,0 +1,82 @@
+.watermark {
+    position: absolute;
+    right: -50px;
+    opacity: 0.3;
+}
+.watermark .blue {
+    background: #007EC5;
+    width: 150px;
+    height: 35px;
+    transform: rotateZ(15deg);
+    margin: 15px 0;
+}
+.watermark .red {
+    background: #C4121A;
+    width: 150px;
+    height: 35px;
+    transform: rotateZ(15deg);
+    margin: 15px 0;
+}
+.watermark .green {
+    background: #007236;
+    width: 150px;
+    height: 35px;
+    transform: rotateZ(15deg);
+    margin: 15px 0;
+}
+.owl-carousel .item {
+    padding: 10px 0px;
+}
+.owl-carousel .item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.owl-carousel .item .client-card {    
+    width: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 10%);
+    border: none;
+}
+.owl-carousel .item .client-card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid #C4121A;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #C4121A;
+    width: 30px;
+    transition: 0.5s;
+}
+.services .icon-box .icon svg {
+    color: #fff;
+    font-size: 25px;
+}
+.services .icon-box:hover .icon svg {
+    color: #007EC5;
+}
+.php-email-form iframe {
+    width: 485px;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .php-email-form iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .php-email-form iframe {
+        width: 100%;
+        height: 322px;
+    }
+}
