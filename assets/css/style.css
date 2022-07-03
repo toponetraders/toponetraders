@@ -877,7 +877,7 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #007EC5;
+  background: linear-gradient(to right top, #007ec5, #0081b4, #008091, #007b64, #007236);
   border-color: #007EC5;
 }
 .services .icon-box:hover .icon {
